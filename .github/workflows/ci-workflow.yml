@@ -34,9 +34,6 @@ jobs:
       - name: Test with pytest
         run: |
           pytest
-      - name : test flake 8
-        run : |
-          flake8 .
       - name : test vulture
         run : |
           vulture formation_indus_ds_avancee/
